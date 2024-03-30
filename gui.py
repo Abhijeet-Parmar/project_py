@@ -109,17 +109,10 @@ def the_browse():
     source_entry.insert(1, temp)
 
 
-# def the_2browse():
-#     temp = list(filedialog.askdirectory())
-#     dest_vari.
-
-
 #browse button
 browse = tk.Button(root, text="Browse", command=the_browse, bg="#66b5c4")
 browse.place(x=440, y=2)
 
-browse1 = tk.Button(root, text="Browse", command=the_browse, bg="#66b5c4")
-browse1.place(x=440, y=34)
 
 # Main loop
 root.mainloop()
